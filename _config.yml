@@ -1,0 +1,33 @@
+title: Sacred Civilization Research Archive
+tagline: Al-Vid Scriptorium
+description: >
+  Forensic-metaphysical research tracing 4,000 years of prophetic custody,
+  civilizational transmission, and the fight for human consciousness.
+  Directed by Saad Khizar Bosal, Mandi Bahauddin, Punjab.
+url: "https://sacredcivilization.github.io"
+baseurl: ""
+
+author:
+  name: Saad Khizar Bosal
+  title: Framework Architect
+  location: Mandi Bahauddin, Punjab, Pakistan
+
+gumroad_url: https://sacredcivilization.gumroad.com
+
+# Build settings
+theme: null
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Sass processing
+sass:
+  style: compressed
+
+# Exclude from build output
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - vendor/
