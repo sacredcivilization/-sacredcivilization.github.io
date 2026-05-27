@@ -2313,6 +2313,14 @@ a.gl-ft-vault { color: var(--gold) !important; }
 .shifts-n--state .shifts-node-era      { color: rgba(160,120,60,0.60); }
 .shifts-n--custody .shifts-node-marker { color: rgba(120,160,100,0.60); background: rgba(26,46,26,0.06); }
 .shifts-n--custody .shifts-node-era    { color: rgba(120,160,100,0.55); }
+/* emergence — Safavid / Golden Chain nodes */
+.shifts-n--emergence .shifts-node-marker {
+  color: rgba(100,180,130,0.75);
+  background: rgba(20,60,35,0.10);
+  border-right-color: rgba(60,140,80,0.22);
+}
+.shifts-n--emergence .shifts-node-era { color: rgba(100,180,130,0.65); }
+.shifts-n--emergence { border-left: 2px solid rgba(60,140,80,0.25); }
 
 /* ── TYPOLOGY GRID ── */
 .shifts-typology-grid {
@@ -2373,6 +2381,22 @@ a.gl-ft-vault { color: var(--gold) !important; }
   color: var(--gold-dim);
   margin-right: 9px;
 }
+
+/* ── EMERGENCE NOTE (Safavid / Golden Chain) ── */
+.shifts-emergence-note {
+  border: 1px solid rgba(60,140,80,0.22);
+  border-left: 3px solid rgba(60,140,80,0.45);
+  background: rgba(10,25,14,0.55);
+  padding: 28px 32px;
+  margin-top: 2px;
+}
+.shifts-emergence-body {
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  color: var(--ash-light);
+  line-height: 1.85;
+}
+.shifts-emergence-body strong { color: var(--parchment); font-weight: 600; }
 
 /* ── RESPONSIVE SHIFTS ≤ 900px ── */
 @media (max-width: 900px) {
