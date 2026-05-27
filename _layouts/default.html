@@ -71,11 +71,6 @@
           "Suhrawardi",
           "Henry Corbin"
         ],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Sacred Exchange Archive — Research Monographs & Books",
-          "url": "{{ site.gumroad_url }}"
-        },
         "founder": {
           "@type": "Person",
           "@id": "{{ site.url }}/#founder",
@@ -90,8 +85,8 @@
           }
         },
         "sameAs": [
-          "https://sacredcivilization.gumroad.com",
-          "https://github.com/sacredcivilization/sacredcivilization.github.io"
+          "https://github.com/sacredcivilization/sacredcivilization.github.io",
+          "https://sacredcivilization.github.io/sacred-archive/"
         ]
       }
     ]
@@ -114,14 +109,7 @@
     "publisher": { "@id": "{{ site.url }}/#archive" },
     "isPartOf": { "@id": "{{ site.url }}/#website" },
     "genre": ["Islamic Metaphysics", "Civilizational Studies", "Sacred History", "Sufi Philosophy"],
-    "isAccessibleForFree": true,
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "{{ site.gumroad_url }}"
-    }
+    "isAccessibleForFree": true
   }
   </script>
   {% endif %}
@@ -129,7 +117,7 @@
   <!-- ══ FONTS ══ -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=IM+Fell+English:ital@0;1&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
@@ -141,6 +129,5 @@
   {% include footer.html %}
 
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-  <script src="https://gumroad.com/js/gumroad.js"></script>
 </body>
 </html>
