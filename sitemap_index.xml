@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://sacredcivilization.github.io/sitemap.xml</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://library.alvidscriptorium.com/sitemap.xml</loc>
+    <lastmod>2026-05-29</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://sacredcivilization.github.io/sacred-archive/sitemap.xml</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://alvidscriptorium.com/sitemap.xml</loc>
+    <lastmod>2026-05-29</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://sacredcivilization.github.io/sacred-sorrow/sitemap.xml</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://sorrow.alvidscriptorium.com/sitemap.xml</loc>
+    <lastmod>2026-05-29</lastmod>
   </sitemap>
 </sitemapindex>
