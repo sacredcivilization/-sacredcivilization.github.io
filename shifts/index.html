@@ -29,8 +29,24 @@ description: >
       <span class="mono" style="font-size:11px; color: var(--gold-dim);">STATUS: ARCHIVING IN PROGRESS &nbsp;·&nbsp; SCRA-2026</span>
     </div>
 
+    <!-- ══ CHAPTER NAVIGATION ══ -->
+    <nav style="margin:32px 0 40px;padding:20px 24px;border:1px solid rgba(168,128,52,0.18);background:rgba(168,128,52,0.03);border-radius:2px;">
+      <p style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:0.22em;text-transform:uppercase;color:rgba(168,128,52,0.5);margin:0 0 14px;">CHAPTER NAVIGATION</p>
+      <div style="display:flex;flex-wrap:wrap;gap:10px 20px;">
+        <a href="#thesis" style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(200,175,110,0.65);text-decoration:none;">The Central Claim</a>
+        <a href="#solomonic" style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(200,175,110,0.65);text-decoration:none;">I · Solomonic Forgery</a>
+        <a href="#babylon" style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(200,175,110,0.65);text-decoration:none;">II · Babylon</a>
+        <a href="#nodes" style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(200,175,110,0.65);text-decoration:none;">Research Nodes — Timeline</a>
+        <a href="#typology" style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(200,175,110,0.65);text-decoration:none;">Two Types of Corruption</a>
+        <a href="#toledo-audit" style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(200,175,110,0.65);text-decoration:none;">Toledo — The Extraction Logic</a>
+        <a href="#layer-i" style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(200,175,110,0.65);text-decoration:none;">Layer I · Sassanid → Islamic</a>
+        <a href="#layer-ii" style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(200,175,110,0.65);text-decoration:none;">Layer II · Alid → Abbasid</a>
+        <a href="#layer-iii" style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(200,175,110,0.65);text-decoration:none;">Layer III · Islamic → "Greek"</a>
+      </div>
+    </nav>
+
     <!-- ══ THESIS ══ -->
-    <h2>The Central Claim</h2>
+    <h2 id="thesis">The Central Claim</h2>
     <p>
       The SCRA documents a pattern that has repeated across every civilizational epoch: a
       genuine prophetic transmission is transmitted — and at each stage, a counterfeit
@@ -49,7 +65,7 @@ description: >
     {% include divider.html %}
 
     <!-- ══ THE SOLOMONIC COUNTERFEIT ══ -->
-    <div class="shifts-rupture-card shifts-rc--primary">
+    <div id="solomonic" class="shifts-rupture-card shifts-rc--primary">
       <p class="shifts-rc-label mono">THE FIRST CODIFIED COUNTERFEIT &nbsp;·&nbsp; ~10th Century BCE</p>
       <h2 class="shifts-rc-title">The Solomonic Forgery</h2>
       <p class="shifts-rc-sub">The Shayateen Write Their Manual</p>
@@ -137,7 +153,7 @@ description: >
     {% include divider.html %}
 
     <!-- ══ BABYLONIAN SYNTHESIS ══ -->
-    <div class="shifts-rupture-card shifts-rc--babylon">
+    <div id="babylon" class="shifts-rupture-card shifts-rc--babylon">
       <p class="shifts-rc-label mono">THE COUNTER-SYNTHESIS &nbsp;·&nbsp; ~6th Century BCE</p>
       <h2 class="shifts-rc-title">Babylon — The First Organised Anti-Transmission</h2>
       <p class="shifts-rc-sub">The Solomonic Counterfeits Merge with Babylonian Occult Tradition</p>
@@ -172,7 +188,7 @@ description: >
     {% include divider.html %}
 
     <!-- ══ PRIMARY RESEARCH NODES ══ -->
-    <h2>Primary Research Nodes — Corrected Sequence</h2>
+    <h2 id="nodes">Primary Research Nodes — Corrected Sequence</h2>
 
     <div class="shifts-nodes">
 
@@ -348,7 +364,7 @@ description: >
     {% include divider.html %}
 
     <!-- ══ THE TYPOLOGY ══ -->
-    <h2>The Two Types of Corruption — and One Emergence</h2>
+    <h2 id="typology">The Two Types of Corruption — and One Emergence</h2>
     <p>
       The research framework of Wing I distinguishes two structurally different modes of
       Ba'alist capture — and one event that belongs to neither category, because it is
@@ -409,7 +425,7 @@ description: >
     {% include divider.html %}
 
     <!-- ══ THE TOLEDO AUDIT — EXTRACTION LOGIC ══ -->
-    <div class="shifts-rupture-card shifts-rc--toledo">
+    <div id="toledo-audit" class="shifts-rupture-card shifts-rc--toledo">
       <p class="shifts-rc-label mono">FORENSIC AUDIT &nbsp;·&nbsp; BAYT AL-HIKMA → TOLEDO &nbsp;·&nbsp; 8th–13th Century CE</p>
       <h2 class="shifts-rc-title">The Extraction Logic</h2>
       <p class="shifts-rc-sub">Three Layers of De-Attribution — What Toledo Actually Received</p>
@@ -425,7 +441,7 @@ description: >
     </div>
 
     <!-- Layer I -->
-    <div class="shifts-extraction-layer">
+    <div id="layer-i" class="shifts-extraction-layer">
       <div class="shifts-layer-header">
         <span class="shifts-layer-num mono">LAYER I</span>
         <div>
@@ -464,7 +480,7 @@ description: >
     </div>
 
     <!-- Layer II -->
-    <div class="shifts-extraction-layer shifts-layer--alid">
+    <div id="layer-ii" class="shifts-extraction-layer shifts-layer--alid">
       <div class="shifts-layer-header">
         <span class="shifts-layer-num mono">LAYER II</span>
         <div>
@@ -582,7 +598,7 @@ description: >
     </div>
 
     <!-- Layer III -->
-    <div class="shifts-extraction-layer">
+    <div id="layer-iii" class="shifts-extraction-layer">
       <div class="shifts-layer-header">
         <span class="shifts-layer-num mono">LAYER III</span>
         <div>
